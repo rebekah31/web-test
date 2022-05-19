@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: 1px solid black;
+}
+.heading{
+    display: flex;
+    padding: 20px 0 5px;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    margin: 0 34px;
+}
+ 
+.page-title{
+margin: 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+.product{
+    border: 1px solid #333;
+    padding: 5px;
+    width: 20%;
+    margin: 25px 20px;
+}
+.info{
+    text-align: center;
+    
+}
+.bottom-line{
+    box-sizing: border-box;
+    border-top: 1px solid;
+    margin: 0 34px;
+}
+
+form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.input-form{
+    width: 100%;
+
+}
+ input{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .data input{
+      width: 30%;
+      
+  }
+
+.switcher{
+    width: 25%;
+    margin: 25px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+
+}
+.input-group{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.same-line{
+    margin: 0;
+    width: 25%;
+}
+.furniture{
+    width: 60%; 
+   
+}
+.furniture input{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.describe{
+    margin-top: 25px;
+}
+
+.product{
+    display: none;
+}
+

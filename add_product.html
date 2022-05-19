@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juniortest-wendy-smith.com</title>
+    <link href="assets/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="heading">
+        <h1 class="page-title">Product Add</h1>
+        <div class="buttons">
+            <button class="add">Save</button></a>
+            <button class="delete">Cancel</button>
+          </div>
+    </section>
+    
+
+    <section class="add_products">
+        <form class="input-form" action="" id="product_form">
+            <div class="data-input">
+                <label for="sku">SKU#:</label> 
+                <input type="text" id="sku" name="sku">
+            </div>
+            
+            <div class="data-input">
+                <label for="name">NAME:</label>
+                <input type="text" id="name" name="name">
+            </div> 
+           
+            <div class="data-input">
+                <label for="price">PRICE ($):</label>
+                <input type="number" id="price" name="price">
+            </div>
+            
+            <div class="input-group switcher" id="typeSwitcher">
+                <label for="productType">Type Switcher:</label>
+                <select id="productType" name="TypeSwitcher" >
+                    <option value=""></option>
+                    <option value="dvd">DVD</option>
+                    <option value="book">Book</option>
+                    <option value="furniture">furniture</option>
+                </select>
+            </div>
+          
+            <div class="data-input data product" id="dvd">
+                <label for="size">Size (MB):</label>
+                <input type="number" name="size" id="size" required>
+                <p class="describe">Please provide size in (MB)</p>
+            </div>
+            
+            <div class="furniture product" id="furniture">
+                <label for="height">Height (CM):</label>
+                <input type="number"  name="height" id="height" required>
+           
+                <label for="width">Width (CM):</label>
+                <input type="number"  id="width" name="width" required>
+
+                <label for="length">Length (CM):</label>
+                <input type="number" id="length" name="price" required>
+                <p class="describe">Please provide measurements in (CM)</p>
+            </div>
+    
+            <div class="data-input data product" id="book">
+                <label for="weight">Weight (KG):</label>
+                <input type="number" name="weight" id="weight" required>
+                <p class="describe">Please provide weight in KG</p>
+            </div>
+            
+        </form>
+    </section>
+    <script src="product.js"></script>
+</body>
+
+</html>
